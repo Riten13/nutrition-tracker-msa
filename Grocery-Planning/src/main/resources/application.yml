@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: grocery-planning-service
+
+  data:
+    mongodb:
+      uri: mongodb+srv://chatgpt:riten13@cluster0.ioo4yf3.mongodb.net/?appName=Cluster0
+      database: grocery_planning_db
+
+server:
+  port: 3002
+
+food-service:
+  url: http://localhost:3000
+
+meal-planning-service:
+  url: http://localhost:3001
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html

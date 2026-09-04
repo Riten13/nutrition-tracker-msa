@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: meal-planning
+  data:
+    mongodb:
+      uri: mongodb+srv://chatgpt:riten13@cluster0.ioo4yf3.mongodb.net/food_database?appName=Cluster0
+      database: food_database
+
+server:
+  port: 3001
+
+food-service:
+  url: http://localhost:3000

@@ -1,0 +1,32 @@
+# ============================================================
+# Root .gitignore — MSA Nutrition Tracker Project
+# ============================================================
+
+# Maven build output
+**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+
+# IDE config
+**/.idea/
+**/*.iml
+**/.vscode/
+**/*.classpath
+**/*.factorypath
+**/*.project
+**/.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Spring Boot packaged JARs
+*.jar
+!**/src/**/**.jar
+
+# Environment / secrets (never commit real credentials)
+**/*.env
