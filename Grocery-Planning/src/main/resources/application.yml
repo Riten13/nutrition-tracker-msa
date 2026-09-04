@@ -4,7 +4,7 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb+srv://chatgpt:riten13@cluster0.ioo4yf3.mongodb.net/?appName=Cluster0
+      uri: 
       database: grocery_planning_db
 
 server:
