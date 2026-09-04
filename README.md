@@ -154,7 +154,7 @@ This project uses **Spring Cloud OpenFeign** for synchronous REST communication 
 
 ## 👤 Author
 
-**Riten** | SEM 3 MSA Project
+**Riten** | **Sanika** | **Tamanna** | SEM 3 MSA Project
 
 ---
 
